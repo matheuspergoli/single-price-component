@@ -62,6 +62,7 @@ body {
 
 .paragraph-second {
     width: 530px;
+    color: var(--grayish-blue);
 }
 
 .section-second {
