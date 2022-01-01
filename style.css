@@ -36,24 +36,44 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 800px;
-    height: 600px;
+    width: 650px;
+    height: 470px;
 }
 
 .section-first {
-    flex-basis: 100%;
+    width: 650px;
+    height: 210px;
+    padding: 40px;
     border-radius: 10px 10px 0px 0px;
     background-color: white;
 }
 
+.heading-first {
+    height: 50px;
+    color: var(--cyan);
+}
+
+.paragraph-first {
+    height: 35px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--bright-yellow);
+}
+
+.paragraph-second {
+    width: 530px;
+}
+
 .section-second {
-    flex-basis: 50%;
+    width: 325px;
+    height: 270px;
     border-bottom-left-radius: 10px;
     background-color: var(--cyan);
 }
 
 .section-last {
-    flex-basis: 50%;
+    width: 325px;
+    height: 270px;
     border-bottom-right-radius: 10px;
-    background-color: var(--cyan);
+    background-color: rgba(0, 255, 255, 0.4);
 }
