@@ -74,20 +74,32 @@ body {
 
 .box3 {
     grid-area: box3;
+    padding: 35px;
     border-bottom-right-radius: 10px;
-    background-color: hsla(179, 62%, 43%, 0.63);
+    background-color: hsla(179, 62%, 43%, 0.80);
+}
+
+.heading--box3 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: var(--light-gray);
+}
+
+.paragraph_1--box3 {
+    line-height: 20px;
+    color: var(--light-gray);
 }
 
 @media (max-width: 650px) {
     .main-content {
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr 2fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
         "box1"
         "box2"
         "box3";
         width: 375px;
-        height: 850px;
+        height: 810px;
     }
 
     .box1 {
