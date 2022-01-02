@@ -79,7 +79,7 @@ body {
 }
 
 @media (max-width: 650px) {
-    .container {
+    .main-content {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 2fr 2fr;
         grid-template-areas: 
